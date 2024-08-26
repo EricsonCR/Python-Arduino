@@ -3,6 +3,7 @@
 LiquidCrystal_I2C lcd(0x3F,16,2);
 
 void setup() {
+  //Hola
   Serial.begin(9600);
   lcd.init();
   lcd.backlight();
